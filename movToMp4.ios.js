@@ -20,7 +20,7 @@ var NativemovToMp4 = NativeModules.movToMp4;
  */
 
 var movToMp4 = {
-  convertMovToMp4: function(filename, dest, cb) {
+  convertMovToMp4: function(filename:string, dest:string, cb:Function) {
     NativemovToMp4.convertMovToMp4(filename, dest, cb);
   }
 };
